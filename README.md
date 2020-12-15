@@ -1,7 +1,7 @@
 # MaskNet
 ## 2020F-IntroductionToDeepLearning-Term Project
 
-### Report Google Docs
+### Google Docs Report
 https://docs.google.com/document/d/1n2pQH1JxNOpb5pWE4ceDfzxRYxmjsvofcJZRIIbEg40/edit?usp=sharing
 
 1. Mobilenet.ipynb
