@@ -43,6 +43,6 @@ def training_log_plot(history):
     plt.savefig("./training_log/fig.png")
     plt.show()
 
-def export_model_summary(model):
-    with open("report.txt", "w") as fh:
+def export_model_summary(model, filename):
+    with open("./model_summary/" + filename + ".txt", "w") as fh:
         model.summary(print_fn=lambda x: fh.write(x + '\n'))
