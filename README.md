@@ -2,7 +2,7 @@
 ## 2020F-IntroductionToDeepLearning-Term Project
 
 ### Google Docs Report
-https://docs.google.com/document/d/1n2pQH1JxNOpb5pWE4ceDfzxRYxmjsvofcJZRIIbEg40/edit?usp=sharing
+https://docs.google.com/document/d/1B5TG_wnZ17lB8bDstGU-ddWnLBjZRIcZZVb1spP59Co/edit
 
 1. checkpoint
 Train 된 model들을 저장해 둔 폴더입니다.
