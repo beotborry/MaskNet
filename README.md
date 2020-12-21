@@ -6,10 +6,37 @@ https://docs.google.com/document/d/1B5TG_wnZ17lB8bDstGU-ddWnLBjZRIcZZVb1spP59Co/
 
 ### YOLO 모델은 다른 repository에 저장해 두었습니다.
 
+---
+### Requirement & Environment Setting
+
+Google Colab에서 training한 weight를 사용하였기 때문에 Model Loading 함수가 포함된 코드(ex) Caffe_DNN_Video.py)를 실행하실 때에는 tensorflow-gpu==2.4.0 이 설치되어 있어야 합니다.
+
+다만, MTCNN 라이브러리의 경우에는 tf 2.4에서 작동하지 않는 오류가 있기 때문에 이 경우에는 tf 2.2로 downgrade 하셔서 코드를 실행하시길 바랍니다.
+
+MTCNN 라이브러리가 포함된 코드
+
+    1. MTCNN_face_detector
+
+환경 전환의 용이함을 위해서 anaconda나 pyenv를 이용하셔서 두 개의 가상환경을 만들어서 실행하시길 추천 드립니다.
+
+requirements.txt file은 tensorflow-gpu 2.4.0 기준으로 작성되었습니다.
+
+---
+
+---
+### Execution Two-Step Detector
+
+현재 디렉토리에서 python Caffe_DNN_Video.py를 실행하시면 되고, 웹캠이 설치된 환경에서만 작동을 합니다.
+
+또한, 실행 테스트를 GPU(CUDA 11.0)가 설치된 환경에서 하였기 때문에, 다른 환경에서의 테스트는 하지 못한 상황입니다.
+
+---
+
 
 1. caffe_dnn_module
 
     Caffe DNN Face Detction 모델의 weight를 저장해 둔 곳입니다.
+    
     Reference : https://github.com/gopinath-balu/computer_vision
 
 1. checkpoint
