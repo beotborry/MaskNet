@@ -3,6 +3,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 import matplotlib.pyplot as plt
 
+
 def load_data_with_label(path_arr, data_arr, label_arr, img_size, _label):
     for path in path_arr:
         try:
@@ -28,6 +29,7 @@ def training_log_plot(history):
 
     plt.ylabel("Accuracy")
     plt.title("Accuracy")
+    plt.legend()
 
     plt.subplot(2, 1, 2)
     plt.plot(loss, label = "TRNG_LOSS")
@@ -36,6 +38,7 @@ def training_log_plot(history):
     plt.xlabel("Epoch")
     plt.ylabel("Cross Entropy")
     plt.title("Loss")
+    plt.legend()
 
     plt.savefig("./training_log/fig.png")
     plt.show()
