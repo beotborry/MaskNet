@@ -50,7 +50,9 @@ requirements.txt file은 tensorflow-gpu 2.4.0 기준으로 작성되었습니다
 1. Caffe DNN Pre-trained weight, https://github.com/gopinath-balu/computer_vision/blob/master/CAFFE_DNN/res10_300x300_ssd_iter_140000.caffemodel
     
 1. YOLO Fine Tuning, https://medium.com/analytics-vidhya/covid-19-face-mask-detection-using-yolov5-8687e5942c81
-    
+
+1. YOLOv5 Code, https://github.com/ultralytics/yolov5
+
 1. Multi-task Cascaded Convolutional Networks (MTCNN) for Face Detection and Facial Landmark Alignment, https://medium.com/@iselagradilla94/multi-task-cascaded-convolutional-networks-mtcnn-for-face-detection-and-facial-landmark-alignment-7c21e8007923
 
 ---
