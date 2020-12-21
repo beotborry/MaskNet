@@ -31,7 +31,28 @@ requirements.txt file은 tensorflow-gpu 2.4.0 기준으로 작성되었습니다
 ---
 ### Reference
 
-    1. https://github.com/gachonyws/face-mask-detector
+    1. Face Mask Detection Dataset, https://www.kaggle.com/omkargurav/face-mask-dataset
+    
+	1. MaskedFace-Net, https://github.com/cabani/MaskedFace-Net
+    
+	1. YOLO dataset, https://github.com/iAmEthanMai/mask-detection-dataset.git
+    
+	1. Mobilnet Fine Tuning Reference Code, https://github.com/gachonyws/face-mask-detector
+    
+    1. HaarCascade Test Code, https://jinho-study.tistory.com/230
+    
+    1. HaarCascade Pre-trained weight, https://github.com/opencv/opencv/tree/master/data/haarcascades
+    
+    1. MTCNN Test Code, https://github.com/ipazc/mtcnn
+    
+    1. Caffe DNN Test Code, https://github.com/gachonyws/face-mask-detector
+    
+    1. Caffe DNN Pre-trained weight, https://github.com/gopinath-balu/computer_vision/blob/master/CAFFE_DNN/res10_300x300_ssd_iter_140000.caffemodel
+    
+    1. YOLO Fine Tuning, https://medium.com/analytics-vidhya/covid-19-face-mask-detection-using-yolov5-8687e5942c81
+    
+    1. Multi-task Cascaded Convolutional Networks (MTCNN) for Face Detection and Facial Landmark Alignment, https://medium.com/@iselagradilla94/multi-task-cascaded-convolutional-networks-mtcnn-for-face-detection-and-facial-landmark-alignment-7c21e8007923
+
     
 ---
 
