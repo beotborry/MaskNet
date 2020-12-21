@@ -22,8 +22,6 @@ MTCNN 라이브러리가 포함된 코드
 requirements.txt file은 tensorflow-gpu 2.4.0 기준으로 작성되었습니다.
 
 ---
-
----
 ### Execution Two-Step Detector
 
 현재 디렉토리에서 python Caffe_DNN_Video.py를 실행하시면 되고, 웹캠이 설치된 환경에서만 작동을 합니다.
@@ -31,7 +29,11 @@ requirements.txt file은 tensorflow-gpu 2.4.0 기준으로 작성되었습니다
 또한, 실행 테스트를 GPU(CUDA 11.0)가 설치된 환경에서 하였기 때문에, 다른 환경에서의 테스트는 하지 못한 상황입니다.
 
 ---
+### Reference
 
+    1. https://github.com/gachonyws/face-mask-detector
+    
+---
 
 1. caffe_dnn_module
 
