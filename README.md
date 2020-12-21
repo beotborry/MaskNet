@@ -5,6 +5,7 @@
 https://docs.google.com/document/d/1B5TG_wnZ17lB8bDstGU-ddWnLBjZRIcZZVb1spP59Co/edit
 
 ### YOLO 모델은 다른 repository에 저장해 두었습니다.
+https://github.com/beotborry/Mask_YOLO.git
 
 ---
 ### Requirement & Environment Setting
