@@ -88,13 +88,13 @@ while True:
 
         # Labeling & differentiate color
         label = "Mask" if withMask > withoutMask else "No Mask"
-        ##color = (0, 255, 0) if label == "Mask" else (255, 0, 0)
+        color = (0, 255, 0) if label == "Mask" else (255, 0, 0)
 
         label = "{}: {:.2f}%".format(label, max(withMask, withoutMask) * 100)
 
         # Print label & bounding box
-        #cv2.putText(frame, label, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
-        cv2.rectangle(frame, (startX, startY), (endX, endY), (255, 0, 0), 2)
+        cv2.putText(frame, label, (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
+        cv2.rectangle(frame, (startX, startY), (endX, endY), color, 2)
 
     cv2.imshow("frame", frame)
     if cv2.waitKey(1) > 0: break
